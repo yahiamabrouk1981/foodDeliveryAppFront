@@ -1,0 +1,428 @@
+.howToOrder {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.01em;
+  line-height: 46px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.orderHeader {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 25px;
+}
+.h2,
+.stepIcons {
+  position: relative;
+}
+.stepIcons {
+  width: 50px;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  display: inline-block;
+}
+.h2 {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  line-height: 59px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.icon,
+.iconWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-lg) var(--padding-5xl);
+}
+.iconWrapper {
+  align-self: stretch;
+  padding: 0 var(--padding-17xl);
+}
+.chooseYourLocation {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 30px;
+  font-weight: 500;
+}
+.stepDetails,
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.stepDetails {
+  align-self: stretch;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  padding: var(--padding-25xl) var(--padding-4xl);
+  gap: var(--gap-5xl);
+  z-index: 1;
+  margin-top: -17px;
+  font-size: var(--font-size-28xl);
+  color: var(--dark);
+}
+.steps {
+  width: 214px;
+}
+.b,
+.h21 {
+  position: relative;
+}
+.b {
+  margin-left: -2.1px;
+  width: 57px;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 57px;
+}
+.h21 {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  line-height: 59px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.icon1,
+.iconContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon1 {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-lg) var(--padding-5xl);
+}
+.iconContainer {
+  align-self: stretch;
+  padding: 0 var(--padding-17xl);
+}
+.chooseWhatTo {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 30px;
+  font-weight: 500;
+  color: var(--color-darkslategray-300);
+}
+.frameParent,
+.steps1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  padding: var(--padding-25xl) var(--padding-4xl);
+  gap: var(--gap-5xl);
+  z-index: 1;
+  margin-top: -17px;
+  font-size: var(--font-size-28xl);
+  color: var(--dark);
+}
+.steps1 {
+  width: 214px;
+}
+.b1,
+.h22 {
+  position: relative;
+}
+.b1 {
+  margin-left: -3.1px;
+  width: 58px;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 58px;
+}
+.h22 {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  line-height: 59px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.icon2,
+.iconFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon2 {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-lg) var(--padding-5xl);
+}
+.iconFrame {
+  align-self: stretch;
+  padding: 0 var(--padding-17xl);
+}
+.mayYourFirst {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 30px;
+  font-weight: 500;
+}
+.frameGroup,
+.steps2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameGroup {
+  align-self: stretch;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  padding: var(--padding-25xl) var(--padding-4xl);
+  gap: var(--gap-5xl);
+  z-index: 1;
+  margin-top: -17px;
+  font-size: var(--font-size-28xl);
+  color: var(--dark);
+}
+.steps2 {
+  width: 214px;
+}
+.b2,
+.h23 {
+  position: relative;
+}
+.b2 {
+  margin-left: -3.1px;
+  letter-spacing: -0.01em;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 58px;
+}
+.h23 {
+  margin: 0;
+  flex: 1;
+  font-size: inherit;
+  line-height: 59px;
+  font-weight: 500;
+  font-family: inherit;
+}
+.frameDiv,
+.icon3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.icon3 {
+  flex: 1;
+  border-radius: var(--br-base);
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-lg) var(--padding-5xl);
+}
+.frameDiv {
+  align-self: stretch;
+  padding: 0 var(--padding-17xl);
+}
+.nowYourFood {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 30px;
+  font-weight: 500;
+}
+.frameContainer {
+  align-self: stretch;
+  border-radius: var(--br-9xl);
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-25xl) var(--padding-4xl);
+  gap: var(--gap-5xl);
+  z-index: 1;
+  margin-top: -17px;
+  font-size: var(--font-size-28xl);
+  color: var(--dark);
+}
+.frameContainer,
+.processSteps,
+.steps3 {
+  display: flex;
+  align-items: flex-start;
+}
+.steps3 {
+  width: 214px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.processSteps {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-24xl-8);
+  color: var(--color-tomato-200);
+}
+.orderContent {
+  width: 1231px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 59px;
+  max-width: 100%;
+}
+.foodDeliveryWebsite,
+.orderProcess {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.orderProcess {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-176xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-27xl);
+  color: var(--color-darkslategray-300);
+  font-family: var(--font-inter);
+}
+.foodDeliveryWebsite {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 62px 0 0;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .processSteps {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .howToOrder {
+    font-size: var(--font-size-18xl);
+    line-height: 37px;
+  }
+  .stepIcons {
+    font-size: var(--font-size-16xl);
+  }
+  .h2 {
+    font-size: var(--font-size-19xl);
+    line-height: 47px;
+  }
+  .b {
+    font-size: var(--font-size-16xl);
+  }
+  .h21 {
+    font-size: var(--font-size-19xl);
+    line-height: 47px;
+  }
+  .b1 {
+    font-size: var(--font-size-16xl);
+  }
+  .h22 {
+    font-size: var(--font-size-19xl);
+    line-height: 47px;
+  }
+  .b2 {
+    font-size: var(--font-size-16xl);
+  }
+  .h23 {
+    font-size: var(--font-size-19xl);
+    line-height: 47px;
+  }
+  .orderContent {
+    gap: 29px;
+  }
+  .orderProcess {
+    padding-bottom: var(--padding-108xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .howToOrder {
+    font-size: var(--font-size-9xl);
+    line-height: 28px;
+  }
+  .stepIcons {
+    font-size: var(--font-size-7xl);
+  }
+  .h2 {
+    font-size: var(--font-size-9xl);
+    line-height: 35px;
+  }
+  .chooseYourLocation {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .b {
+    font-size: var(--font-size-7xl);
+  }
+  .h21 {
+    font-size: var(--font-size-9xl);
+    line-height: 35px;
+  }
+  .chooseWhatTo {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .b1 {
+    font-size: var(--font-size-7xl);
+  }
+  .h22 {
+    font-size: var(--font-size-9xl);
+    line-height: 35px;
+  }
+  .mayYourFirst {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .b2 {
+    font-size: var(--font-size-7xl);
+  }
+  .h23 {
+    font-size: var(--font-size-9xl);
+    line-height: 35px;
+  }
+  .nowYourFood {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+}

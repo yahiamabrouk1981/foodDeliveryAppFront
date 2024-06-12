@@ -1,0 +1,297 @@
+.background,
+.h2 {
+  position: relative;
+}
+.background {
+  width: 1611px;
+  height: 728px;
+  background-color: var(--color-black);
+  display: none;
+  max-width: 100%;
+}
+.h2 {
+  margin: 0;
+  height: 42px;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 46px;
+  z-index: 1;
+}
+.appStoreBlackBorder,
+.googlePlayBlackBorder {
+  align-self: stretch;
+  width: 186.8px;
+  position: relative;
+  max-height: 100%;
+  min-height: 68px;
+  z-index: 1;
+}
+.googlePlayBlackBorder {
+  width: 182.4px;
+}
+.footerAppLinks,
+.footerLinksLeft {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-14xl);
+}
+.footerLinksLeft {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-70xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-23xl);
+  color: var(--text-color);
+  font-family: var(--font-playfair-display);
+}
+.quickLinks {
+  position: relative;
+  line-height: 27px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 95px;
+  z-index: 1;
+}
+.features,
+.foodMenu,
+.offer,
+.review,
+.rider {
+  display: block;
+}
+.pricingUpdatesBetaContainer {
+  margin: 0;
+  align-self: stretch;
+  height: 249px;
+  position: relative;
+  line-height: 32.18px;
+  color: var(--color-darkgray-500);
+  display: inline-block;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.quickLinksContent,
+.quickLinksContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.quickLinksContent {
+  align-self: stretch;
+  gap: var(--gap-lg-5);
+}
+.quickLinksContentWrapper {
+  width: 107.2px;
+  padding: var(--padding-mid) var(--padding-xs) 0 0;
+  box-sizing: border-box;
+}
+.getToKnow {
+  position: relative;
+  line-height: 27px;
+  font-weight: 600;
+  z-index: 1;
+}
+.accessibility,
+.doordashStories,
+.giftCards,
+.glassdoor,
+.linkedin {
+  display: block;
+}
+.giftCardsDoordashContainer {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 34px;
+  font-family: var(--font-poppins);
+  color: var(--color-darkgray-400);
+  z-index: 1;
+}
+.aboutLinksContent,
+.aboutLinksContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.aboutLinksContent {
+  gap: var(--gap-2xl);
+}
+.aboutLinksContentWrapper {
+  padding: var(--padding-mid) var(--padding-smi) 0 0;
+}
+.news {
+  position: relative;
+  line-height: 27px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 49px;
+  z-index: 1;
+}
+.blog,
+.faq,
+.liftMedia,
+.press,
+.presseKit {
+  display: block;
+}
+.pricingUpdatesBetaContainer1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  line-height: 32.18px;
+  color: var(--color-darkgray-500);
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.newsContent,
+.newsContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.newsContent {
+  align-self: stretch;
+  gap: var(--gap-lg-5);
+}
+.newsContentWrapper {
+  width: 102.2px;
+  padding: var(--padding-mid) var(--padding-smi) 0 0;
+  box-sizing: border-box;
+}
+.contact {
+  position: relative;
+  line-height: 27px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 69px;
+  z-index: 1;
+}
+.support24,
+.whatsapp {
+  margin: 0;
+}
+.whatsappSupport24Container {
+  position: relative;
+  font-size: var(--font-size-sm);
+  line-height: 34px;
+  font-family: var(--font-poppins);
+  color: var(--color-darkgray-400);
+  z-index: 1;
+}
+.contactContent,
+.contactContentWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.contactContent {
+  gap: var(--gap-2xl);
+}
+.contactContentWrapper {
+  padding: var(--padding-mid) 0 0;
+}
+.footerContent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.pizzaallRightReserved {
+  position: relative;
+  line-height: 25px;
+  z-index: 1;
+}
+.copyrightContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs-1) 0 0;
+}
+.privacyPolicyTerms {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-mid-8);
+  line-height: 27px;
+  white-space: pre-wrap;
+  text-align: right;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.copyrightContentParent {
+  width: 1299.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  font-size: var(--font-size-base-5);
+  color: var(--color-darkgray-100);
+}
+.footerFitmealFoodDeliveryW {
+  margin-left: -11px;
+  align-self: stretch;
+  background-color: var(--color-black);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-92xl) var(--padding-74xl) var(--padding-91xl-6)
+    var(--padding-141xl);
+  box-sizing: border-box;
+  gap: var(--gap-148xl-9);
+  max-width: 101%;
+  flex-shrink: 0;
+  z-index: 1;
+  text-align: left;
+  font-size: var(--font-size-mid-8);
+  color: var(--white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .h2 {
+    font-size: var(--font-size-15xl);
+  }
+  .copyrightContentParent {
+    flex-wrap: wrap;
+  }
+  .footerFitmealFoodDeliveryW {
+    gap: var(--gap-65xl);
+    padding: var(--padding-53xl) var(--padding-27xl) var(--padding-53xl)
+      var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h2 {
+    font-size: var(--font-size-6xl);
+  }
+  .footerAppLinks {
+    flex-wrap: wrap;
+    gap: var(--gap-base);
+  }
+  .footerLinksLeft {
+    gap: var(--gap-25xl);
+  }
+  .footerFitmealFoodDeliveryW {
+    gap: var(--gap-23xl);
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

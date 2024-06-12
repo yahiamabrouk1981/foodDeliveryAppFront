@@ -1,0 +1,450 @@
+.h2 {
+  margin: 0;
+  height: 42px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 900;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 46px;
+  white-space: nowrap;
+}
+.wrapper {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-111xl) 0 0;
+  box-sizing: border-box;
+  color: var(--text-color);
+  font-family: var(--font-playfair-display);
+}
+.about,
+.recipes,
+.restaurants {
+  text-decoration: none;
+  position: relative;
+  line-height: 28px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 81px;
+}
+.about,
+.recipes {
+  min-width: 53px;
+}
+.about {
+  min-width: 41px;
+}
+.pageLink {
+  font-family: var(--font-inter);
+  font-weight: 500;
+  font-size: var(--font-size-sm);
+  color: var(--dark);
+}
+.navLinks,
+.navigation {
+  display: flex;
+  align-items: flex-start;
+}
+.navLinks {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.navigation {
+  width: 358px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-sm);
+}
+.login {
+  text-decoration: none;
+  position: relative;
+  line-height: 28px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 43px;
+  white-space: nowrap;
+}
+.loginWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+}
+.base {
+  height: 56px;
+  width: 115px;
+  position: relative;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-tomato-300);
+  display: none;
+}
+.button,
+.signUp {
+  white-space: nowrap;
+}
+.signUp {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 28px;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  min-width: 61px;
+  z-index: 1;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-sm) var(--padding-8xl);
+  background-color: var(--color-tomato-300);
+  border-radius: var(--br-17xl);
+  justify-content: flex-start;
+}
+.button:hover {
+  background-color: var(--color-tomato-100);
+}
+.button,
+.contentInner,
+.frameParent,
+.userActions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.userActions {
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  text-align: right;
+  font-size: var(--font-size-base);
+}
+.contentInner,
+.frameParent {
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.contentInner {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-24xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-23xl);
+  color: var(--dark);
+  font-family: var(--font-inter);
+}
+.yourFavoriteFood {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 65px;
+  font-weight: 700;
+  font-family: inherit;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.theFoodAt {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 30px;
+  display: inline-block;
+  max-width: 100%;
+}
+.heroDescription {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-9xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+}
+.fill {
+  height: 64px;
+  width: 464px;
+  position: relative;
+  border-radius: var(--br-37xl);
+  background-color: var(--color-whitesmoke);
+  display: none;
+  max-width: 100%;
+}
+.enterYourDelivery {
+  position: relative;
+  letter-spacing: 0.01em;
+  font-weight: 500;
+  z-index: 1;
+}
+.locationInput {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+}
+.orderNow {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 94px;
+}
+.orderButton {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-xl);
+  background-color: var(--color-tomato-200);
+  box-shadow: 0 10px 20px -10px rgba(234, 234, 234, 0.4);
+  border-radius: var(--br-37xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.orderButton:hover {
+  background-color: var(--color-orangered);
+}
+.appStoreBlackBorder,
+.fillParent,
+.googlePlayBlackBorder {
+  position: absolute;
+  margin: 0 !important;
+  left: 0;
+  max-width: 100%;
+}
+.fillParent {
+  width: 100%;
+  top: 0;
+  border-radius: var(--br-37xl);
+  background-color: var(--color-whitesmoke);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-7xs) var(--padding-7xs) var(--padding-7xs)
+    var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.appStoreBlackBorder,
+.googlePlayBlackBorder {
+  height: 40.72%;
+  width: 40.26%;
+  top: 59.28%;
+  right: 59.74%;
+  bottom: 0;
+  overflow: hidden;
+  max-height: 100%;
+}
+.googlePlayBlackBorder {
+  width: 39.31%;
+  right: 13.32%;
+  left: 47.37%;
+}
+.appButtons {
+  height: 167px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  position: relative;
+  gap: 35px 33px;
+  max-width: 100%;
+}
+.appLinks,
+.heroContent,
+.yourFavoriteFoodDeliveryPaParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.appLinks {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-41xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray-200);
+}
+.heroContent,
+.yourFavoriteFoodDeliveryPaParent {
+  flex-direction: column;
+}
+.yourFavoriteFoodDeliveryPaParent {
+  align-self: stretch;
+  gap: var(--gap-5xl);
+}
+.heroContent {
+  flex: 1;
+  padding: var(--padding-17xl-5) 0 0;
+  box-sizing: border-box;
+  min-width: 380px;
+}
+.heroImageChild,
+.imagesIcon {
+  position: relative;
+  max-width: 100%;
+}
+.heroImageChild {
+  height: 478px;
+  width: 570px;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-antiquewhite);
+  display: none;
+}
+.imagesIcon {
+  height: 452px;
+  flex: 1;
+  overflow: hidden;
+  object-fit: contain;
+  z-index: 1;
+}
+.hero,
+.heroImage {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.heroImage {
+  height: 478px;
+  width: 570px;
+  border-radius: var(--br-17xl);
+  background-color: var(--color-antiquewhite);
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: flex-start;
+  padding: var(--padding-18xl) var(--padding-16xl) 0;
+  box-sizing: border-box;
+  min-width: 570px;
+  max-width: 100%;
+}
+.hero {
+  align-self: stretch;
+  gap: var(--gap-90xl);
+}
+.content,
+.hero,
+.main {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.content {
+  width: 1264px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-84xl);
+}
+.main {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-181xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-42xl);
+  color: var(--dark);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 1350px) {
+  .contentInner {
+    padding-left: var(--padding-2xl);
+    padding-right: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1125px) {
+  .heroImage,
+  .imagesIcon {
+    flex: 1;
+  }
+  .hero {
+    flex-wrap: wrap;
+  }
+  .main {
+    padding-bottom: var(--padding-111xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+  .navLinks {
+    display: none;
+  }
+  .navigation {
+    width: 0;
+  }
+  .yourFavoriteFood {
+    font-size: var(--font-size-30xl);
+    line-height: 52px;
+  }
+  .fillParent {
+    flex-wrap: wrap;
+  }
+  .appButtons {
+    height: auto;
+    min-height: 167;
+  }
+  .appLinks {
+    padding-left: var(--padding-11xl);
+    padding-right: var(--padding-11xl);
+    box-sizing: border-box;
+  }
+  .heroImage {
+    min-width: 100%;
+  }
+  .hero {
+    gap: var(--gap-35xl);
+  }
+  .content {
+    gap: var(--gap-32xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .yourFavoriteFood {
+    font-size: var(--font-size-18xl);
+    line-height: 39px;
+  }
+  .heroContent {
+    min-width: 100%;
+  }
+  .hero {
+    gap: var(--gap-8xl);
+  }
+  .content {
+    gap: var(--gap-7xl);
+  }
+  .main {
+    padding-bottom: var(--padding-65xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,152 @@
+.browseLocalRestaurants,
+.subscribeOurNewsletter {
+  margin: 0;
+  position: relative;
+  letter-spacing: 0.01em;
+  display: inline-block;
+}
+.subscribeOurNewsletter {
+  font-size: inherit;
+  line-height: 58px;
+  font-weight: 600;
+  font-family: inherit;
+  max-width: 100%;
+}
+.browseLocalRestaurants {
+  height: 26px;
+  font-size: var(--font-size-base);
+  line-height: 26px;
+}
+.subscriptionContent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.fromChild {
+  height: 62px;
+  width: 470px;
+  position: relative;
+  border-radius: var(--br-12xl-5);
+  background-color: var(--white);
+  display: none;
+  max-width: 100%;
+}
+.enterYourEmail {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 14px;
+  font-weight: 300;
+  z-index: 1;
+}
+.emailInputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-lgi) 0 0;
+}
+.send {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 45px;
+}
+.sendButtonContainer {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-xl);
+  background-color: var(--color-tomato-200);
+  box-shadow: 0 10px 20px -10px rgba(234, 234, 234, 0.4);
+  border-radius: var(--br-37xl);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+}
+.sendButtonContainer:hover {
+  background-color: var(--color-orangered);
+}
+.from {
+  align-self: stretch;
+  border-radius: var(--br-12xl-5);
+  background-color: var(--white);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-8xs) var(--padding-8xs) var(--padding-8xs)
+    var(--padding-7xl);
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.from,
+.fromWrapper,
+.subscriptionContentParent {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.fromWrapper {
+  width: 470px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-mid) 0 0;
+  max-width: 100%;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray-300);
+  font-family: var(--font-inter);
+}
+.subscriptionContentParent {
+  align-self: stretch;
+  background-color: var(--color-seashell);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-84xl) var(--padding-109xl) var(--padding-84xl)
+    var(--padding-72xl);
+  max-width: 101%;
+  flex-shrink: 0;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-27xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1350px) {
+  .subscriptionContentParent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .subscribeOurNewsletter {
+    font-size: var(--font-size-18xl);
+    line-height: 46px;
+  }
+  .subscriptionContentParent {
+    padding-left: var(--padding-26xl);
+    padding-right: var(--padding-45xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .subscribeOurNewsletter {
+    font-size: var(--font-size-9xl);
+    line-height: 35px;
+  }
+  .from {
+    flex-wrap: wrap;
+  }
+  .subscriptionContentParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

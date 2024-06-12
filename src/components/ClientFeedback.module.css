@@ -1,0 +1,171 @@
+.vectorIcon {
+  height: 55px;
+  width: 60px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 0;
+  left: 332px;
+  object-fit: contain;
+}
+.ourClientsFeedback {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 54px;
+  font-weight: 700;
+  font-family: inherit;
+}
+.theFoodAt {
+  margin: 0;
+  width: 532px;
+  position: relative;
+  line-height: 26px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.feedbackQuote,
+.quote {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.quote {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+}
+.feedbackQuote {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.feedbackQuoteWrapper,
+.vectorParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.feedbackQuoteWrapper {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 var(--padding-12xl) var(--padding-91xl) 0;
+  box-sizing: border-box;
+}
+.vectorParent {
+  width: 755px;
+  justify-content: flex-start;
+  position: relative;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  line-height: 34px;
+  font-style: italic;
+  font-weight: 500;
+  color: var(--color-black);
+}
+.ceoBexonAgency,
+.mitchellMarsh {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+}
+.mitchellMarsh {
+  font-weight: 600;
+}
+.ceoBexonAgency {
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.clientInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.frameChild {
+  height: 36px;
+  width: 96px;
+  position: relative;
+}
+.clientInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xl) 0 var(--padding-12xl);
+}
+.client {
+  width: 157px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.clientDetails {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  font-size: var(--font-size-lg);
+}
+.feedbackContent {
+  width: 787px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+  max-width: 100%;
+}
+.clientFeedback {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-148xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-25xl);
+  color: var(--color-gray-200);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 800px) {
+  .ourClientsFeedback {
+    font-size: var(--font-size-16xl);
+    line-height: 43px;
+  }
+  .clientFeedback {
+    padding-bottom: var(--padding-90xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourClientsFeedback {
+    font-size: var(--font-size-7xl);
+    line-height: 32px;
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-lgi);
+    line-height: 27px;
+  }
+  .feedbackContent {
+    gap: var(--gap-2xl);
+  }
+}
